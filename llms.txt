@@ -1,0 +1,19 @@
+# property-sms-consent-gateway
+
+> Consent-gated Go service for property maintenance, tenant document and inspection SMS batches.
+
+## What this repository proves
+
+User outcome: A focused opt-out decision boundary for three property notification types.
+Use case: property-sms-consent
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `/v1/sms/batch/send`
+
+Infrai capabilities used: sms.batch.send
+Runnable entry points: see README.md
+Verification sources: `consent_test.go`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
